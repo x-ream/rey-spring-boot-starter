@@ -5,7 +5,7 @@
     <groupId>io.xream.rey</groupId>
     <artifactId>rey-spring-boot-starter</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.0</version>
 
     <name>rey-spring-boot-starter</name>
     <description>http://rey.xream.io</description>
