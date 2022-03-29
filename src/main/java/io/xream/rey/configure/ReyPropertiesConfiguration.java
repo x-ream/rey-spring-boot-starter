@@ -32,6 +32,9 @@ public class ReyPropertiesConfiguration implements ReyConfigurable {
 
     @Override
     public boolean isCircuitbreakerEnabled(String name) {
+        CircuitbreakerProperties properties = reyProperties.getCircuitbreaker().get(name);
+        if (properties == null)
+            return true;
         return reyProperties.getCircuitbreaker().get(name).isEnabled();
     }
 }

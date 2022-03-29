@@ -19,6 +19,7 @@ package io.xream.rey;
 
 import io.xream.rey.configure.ReyPropertiesConfiguration;
 import io.xream.rey.spring.beanconfiguration.ClientHeaderInterceptorPostProcessor;
+import io.xream.rey.spring.beanconfiguration.FallbackConfig;
 import io.xream.rey.spring.beanconfiguration.RestTemplateConfig;
 import io.xream.rey.spring.beanconfiguration.ReyClientConfig;
 import org.springframework.context.annotation.Import;
@@ -33,7 +34,8 @@ import java.lang.annotation.*;
         RestTemplateConfig.class,
         ReyClientConfig.class,
         ReyClientBeanRegistrar.class,
-        ClientHeaderInterceptorPostProcessor.class
+        ClientHeaderInterceptorPostProcessor.class,
+        FallbackConfig.class
 })
 public @interface EnableReyClient {
     String[] basePackages() default {};

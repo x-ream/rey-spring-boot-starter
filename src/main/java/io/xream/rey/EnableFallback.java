@@ -16,7 +16,6 @@
  */
 package io.xream.rey;
 
-import io.xream.rey.spring.beanconfiguration.FallbackConfig;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;
@@ -27,7 +26,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 @Documented
-@Import({ReyFallbackBeanRegistrar.class, FallbackConfig.class})
+@Import({ReyFallbackBeanRegistrar.class})
 public @interface EnableFallback {
     String[] basePackages() default {};
 }
