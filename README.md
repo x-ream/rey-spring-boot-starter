@@ -1,8 +1,8 @@
 # rey
    [http://rey.xream.io](http://rey.xream.io) 
    
-[![license](https://img.shields.io/github/license/x-ream/rey.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![maven](https://img.shields.io/maven-central/v/io.xream.rey/rey-spring-boot-starter.svg)](https://search.maven.org/search?q=io.xream.rey)
+[![license](https://img.shields.io/github/license/x-ream/rey-spring-boot-starter.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![maven](https://img.shields.io/maven-central/v/io.xream.rey/rey-spring-boot-starter.svg)](https://search.maven.org/search?q=io.xream.rey:rey-spring-boot-starter)
 
 
 
