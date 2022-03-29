@@ -1,4 +1,4 @@
-# rey
+# rey-spring-boot-starter
    [http://rey.xream.io](http://rey.xream.io) 
    
 [![license](https://img.shields.io/github/license/x-ream/rey-spring-boot-starter.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
