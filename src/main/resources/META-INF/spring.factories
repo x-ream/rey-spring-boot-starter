@@ -1,6 +1,7 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
  io.xream.rey.autoconfigure.ReyTemplateAutoConfiguration,\
- io.xream.rey.autoconfigure.ReyExceptionHandlerAutoConfiguration
+ io.xream.rey.autoconfigure.ReyExceptionHandlerAutoConfiguration,\
+ io.xream.rey.autoconfigure.SpringExceptionHandlerAutoConfiguration
 
 org.springframework.context.ApplicationListener=\
  io.xream.rey.ReyListener
