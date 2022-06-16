@@ -18,7 +18,7 @@
         <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
         <maven.test.skip>true</maven.test.skip>
         <rey.version>1.2.0</rey.version>
-        <internal-util.version>1.0.0.RELEASE</internal-util.version>
+        <internal-util.version>1.1.0.RELEASE</internal-util.version>
     </properties>
 
 
